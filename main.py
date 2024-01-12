@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-load_dotenv("../.env")
+load_dotenv()
 
 from pipeline.interview_pipeline import interview_pipeline
 from utils import *
